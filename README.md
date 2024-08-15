@@ -20,33 +20,32 @@ openssl
 curl
 Setup Instructions
 
-Installation of AD CS Connector:
+**Installation of AD CS Connector:**
 After installation, ensure you have the following:
 client-cert.pfx: Client certificate file.
 adcs-proxy-ca.cer: CA certificate file.
 PFX/P12 password: The password obtained during the PowerShell installation process.
 
-Script Configuration:
+**Script Configuration:**
 Place the client-cert.pfx and adcs-proxy-ca.cer files in the same directory as this script.
 Assign the PFX password to the clientPfxPassword variable in the script.
 
-Running the Script:
+**Running the Script:**
 Update the script settings, including ADCS_CA_hostname, ADCS_CA_InstanceName, ADCS_CA_template, and CONNECTOR_HOSTPORT.
 Execute the script in the terminal.
 Script Overview
 
 Settings: The script's settings include the hostname of the CA server, the instance name, the certificate template, and the paths to the necessary certificate files.
 
-Procedure:
+**Procedure:**
 The script tests connectivity to the AD CS Connector and verifies the server and client certificates.
 It creates a Certificate Signing Request (CSR) and sends it to the AD CS Connector.
 It retrieves the signed certificate and combines it with the private key into a P12 file.
 
-Important Notes:
+**Important Notes:**
 
 Security: The client certificate and password are sensitive information. Do not store or share them insecurely.
 
 Testing Environment: This script is for testing purposes only. Ensure to reconfigure the setup for production use and regenerate the client certificates.
-Disclaimer
 
-This script is provided as-is without any warranty. The user assumes all risks associated with its use.
+**Disclaimer:** This script is provided as-is without any warranty. The user assumes all risks associated with its use.
