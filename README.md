@@ -1,6 +1,6 @@
 AD CS Connector Setup Test Script
 
-This bash script is designed to test the configuration and network connectivity of the AD CS Connector for Jamf Pro. It verifies that the necessary components are correctly set up and that communication between the components works as expected. This script is a modified version of the ADCS Connector Test Script from the Jamf GitHub alerted for greater usability.
+This bash script is designed to test the configuration and network connectivity of the AD CS Connector for Jamf Pro. It verifies that the necessary components are correctly set up and that communication between the components works as expected. This script is a modified version of the ADCS Connector Test Script from the Jamf GitHub altered for greater usability.
 
 Official Script:
 Testing AD CS Connector with curl.sh: https://github.com/jamf/ol/tree/master/adcsc/Test
